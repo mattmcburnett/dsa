@@ -80,7 +80,7 @@ console.log(isCorrect(palindromeList(wordList), resultList));
   const wordOne = "racecar";
   const wordTwo = 'bruh';
   const wordThree = 'noon';
-
+ 
 
 
 // console.log(isPalindrome(wordThree))
