@@ -18,11 +18,11 @@ function balancedBrackets(string) {
       if (char === '}') {
         if (stack[stack.length - 1] !== '{') {
           return false;
-        } else {
+        } else { 
           stack.pop();
         }
       }
       if (char === '(' || char === "{" || char === "[") stack.push(char);
     }
     return stack.length === 0
-  }
+}
