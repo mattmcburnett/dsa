@@ -10,4 +10,4 @@ function nonConstructibleChange(coins) {
 
     return change + 1;
   }
-  
+   
